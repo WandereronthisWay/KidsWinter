@@ -1,0 +1,422 @@
+/* .container {
+	
+	width: 100%; */
+/* } */
+* {
+  text-align: center;
+}
+.ma-ti {
+  margin-top: 1rem;
+}
+.title-header {
+  text-align: center;
+  background-color: #32739e;
+  height: 50px;
+}
+.ti-le-start {
+  padding: 16px;
+  text-align: center;
+}
+.ti-le {
+  padding: 1.2rem 2.5rem 1.2rem 2.5rem;
+  margin: -4px;
+  color: #e4ecf2;
+  text-align: center;
+  text-align: justify;
+  border-right: 1px dotted black;
+}
+.ti-le:hover {
+  background-color: #ee445f;
+  color: #e4ecf2;
+  cursor: pointer;
+}
+.inverse_call {
+  font-size: 14px;
+  border-bottom: 1px dotted;
+  color: #f17788;
+}
+.phone {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 3px;
+}
+.tower {
+  font-size: 18px;
+  margin-top: 1rem;
+  margin-bottom: 5px;
+}
+.block-ma_tit {
+  border-left: 1px solid #d6d6d6;
+  margin-left: 7rem;
+  width: 240px;
+}
+.block-ma_til {
+  margin-left: 7rem;
+  width: 240px;
+  border-left: 1px solid #d6d6d6;
+}
+.basket-lot {
+  display: inline-block;
+  width: 292.5px;
+  margin-top: 0.5rem;
+  padding: 7px;
+  text-align: left;
+}
+.basket-lot img {
+  margin-left: 6.5rem;
+  text-align: left;
+  float: left;
+}
+.basket-lot .acount {
+  color: #f17788;
+  font-weight: 700;
+  font-size: 18px;
+  display: inline-block;
+}
+.basket-lot span {
+  text-align: center;
+  text-align: justify;
+  height: 50px;
+}
+.basket-lot p {
+  font-size: 18px;
+  text-align: left;
+  margin-bottom: 0;
+}
+.basket-lot .lot {
+  display: inline-block;
+  text-align: left;
+  border: 1px solid #c6c6c6;
+  width: 45px;
+  height: 20px;
+  font-size: 1.3rem;
+  padding-left: 5px;
+}
+.basket-lot .zum {
+  display: inline-block;
+  text-align: left;
+  margin-top: -1rem;
+}
+.basket-lot .basket-text {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: -2rem;
+  margin-top: -2rem;
+  font-size: 18px;
+}
+.menu .ho:hover {
+  background: url(../img/white-right-arr.png) no-repeat right;
+  background-color: #ee445f;
+  color: #fff;
+  cursor: pointer;
+}
+.menu .arrow {
+  display: inline-block;
+  text-align: right;
+  text-align: justify;
+}
+.menu p {
+  height: 38px;
+  width: 230px;
+  padding: 7px;
+  font-size: 16px;
+  text-align: left;
+}
+.menu .ka-log {
+  background: #ffffff url(../img/white-right-arr.png) no-repeat right;
+  text-transform: uppercase;
+  font-size: 16px;
+  background-color: #323232;
+  color: #ffffff;
+  padding-left: 15px;
+}
+.menu .visitors {
+  background: #ffffff url(../img/white-right-arr.png) no-repeat right;
+  margin-top: 3rem;
+  text-transform: uppercase;
+  font-size: 16px;
+  background-color: #323232;
+  color: #ffffff;
+  padding-left: 15px;
+}
+.menu .ho {
+  background: #ffffff url(../img/rightArrow.png) no-repeat right;
+  background-color: #f1f1f1;
+  margin-bottom: 8px;
+  padding-left: 25px;
+}
+.fotorama img {
+  width: 745px;
+  height: 370px;
+}
+.img-1 {
+  background: url(../img/kinder_1k.jpg) no-repeat center;
+  background-size: cover;
+  width: 745px;
+  height: 370px;
+}
+.block-img {
+  background-color: #e9e9e9;
+  display: inline-block;
+  text-align: justify;
+  padding: 7px;
+  width: 100%;
+}
+.block-img p {
+  text-align: left;
+  margin-top: 1rem;
+}
+.block-img img {
+  float: left;
+  margin-right: 1rem;
+}
+
+/*Секция с преимуществами*/
+.block-feat {
+  width: 100%;
+  text-align: left;
+  display: inline-block;
+  margin-top: 3rem;
+}
+.block-feat img {
+  width: 360px;
+  height: 140px;
+  z-index: 0;
+  margin: 1rem;
+}
+.feat-2 {
+  text-align: center;
+}
+.warning,
+.recommend,
+.new {
+  width: 310px;
+  height: 122px;
+  text-align: center;
+  display: table;
+  -webkit-box-shadow: 1px 1px 1px 100px rgba(0, 0, 0, 0.4) inset;
+          box-shadow: 1px 1px 1px 100px rgba(0, 0, 0, 0.4) inset;
+  opacity: 0;
+}
+.warning-ho,
+.recom-ho,
+.new-ho {
+  display: table-cell;
+  vertical-align: middle;
+  border: 3px solid white;
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+.features-img-block {
+  margin: 1rem;
+  width: 328px;
+  height: 140px;
+  background: url(../img/warning-hoc.jpg) no-repeat center;
+  display: table-cell;
+  padding: 10.5px;
+}
+.features-img-block2 {
+  width: 328px;
+  height: 140px;
+  background: url(../img/recommend.jpg) no-repeat center;
+  display: table-cell;
+  padding: 10.5px;
+}
+.features-img-block3 {
+  margin-right: 10rem;
+  width: 328px;
+  height: 140px;
+  background: url(../img/new_collection.jpg) no-repeat center;
+  display: table-cell;
+  padding: 10.5px;
+}
+.warning:hover,
+.recommend:hover,
+.new:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+/* .warning::before {
+	content: 'внимание скидка 30%';
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	display: table-cell;
+	font-weight: 600;
+	display: none;
+}
+
+
+
+.recommend::before {
+	content: 'мы вам рекомендуем';
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	display: table-cell;
+	font-weight: 600;
+	display: none;
+}	
+
+
+
+.new::before {
+	content: 'новая коллекция';
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	display: table-cell;
+	font-weight: 600;
+	display: none;
+}
+
+.warning:hover, .recommend:hover, .new:hover {
+	width: 310px;
+	height: 122px;
+	box-shadow: 1px 1px 1px 10px rgba(0, 0, 0, 0.4) inset;
+	border: 3px solid white;	
+	display: inline;
+	background: url(../img/warning-hoc.jpg) no-repeat center;
+} */
+.warn-text {
+  position: absolute;
+  display: none;
+}
+
+/*Секция с ценами*/
+.thi-name {
+  display: block;
+  font-size: 16px;
+}
+.price-thing {
+  display: block;
+  font-size: 18px;
+  color: #ef576e;
+  font-weight: 700;
+}
+.nav .tab-block {
+  margin-top: 5rem;
+  width: 33%;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.nav .tab-block a {
+  color: #323232;
+}
+/*Треугольник*/
+.tb_border::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+  border: 10px solid transparent;
+  border-top: 10px solid #32739e;
+  opacity: 0;
+}
+.tb_border:hover {
+  opacity: 1;
+}
+/*Нижнее подчеркивание*/
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li.active > a:hover {
+  border: none;
+  border-bottom: 3px solid #32739e;
+  color: #32739e;
+}
+.card_price img {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+
+}
+
+
+
+
+/*.test:hover {
+  display: table-cell;
+  vertical-align: middle;
+  background: url(../img/loop.png) no-repeat center;
+}*/
+.card_img {
+  width: 230px;
+  height: 327px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  margin-top: 2rem;
+  
+}
+.shadow-block {
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+}
+.shadow-block:hover {
+  width: 247px;
+  height: 450px;
+  
+  opacity: 1;
+
+}
+.shadow-block-img  {
+  position: absolute;
+  top: 25%;
+  left: 38%;
+  transform: translateX(40%);
+   inset;
+}
+.shadow-block-text {
+  position: absolute;
+  top: 40%;
+transform: translateX(40%);
+box-shadow: 1px 1px 1px 200px rgba(0, 0, 0, 0.5)inset;
+}
+
+/*Секция с временным блоком */
+.present {
+  margin-top: 5rem;
+}
+.present p {
+  text-align: left;
+  text-align: justify;
+}
+.present h4 {
+  text-align: left;
+}
+.text-clock {
+  list-style: none;
+  text-align: left;
+}
+.end-header {
+  background-color: #323232;
+  padding: 33px;
+}
+.end-header span {
+  border-right: 1px solid white;
+}
+.end-header .no-bor {
+  border: none;
+}
+.end-header .block-end-hed {
+  margin-bottom: 3rem;
+}
+.end-header .end-hed {
+  color: #e4ecf2;
+  text-align: center;
+  text-align: justify;
+  margin: 20px;
+}
+.fo-cont {
+  color: #8b8b8b;
+  padding: -10px;
+}
+.end {
+  padding: 25px;
+  text-align: center;
+}
